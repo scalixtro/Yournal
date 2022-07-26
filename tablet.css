@@ -1,0 +1,41 @@
+.header {
+    height: 20vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    height: 100%;
+    flex-direction: row;
+}
+
+.user__greetings {
+    order: 0;
+}
+
+.user__name {
+    order: 1;
+    margin: 0 1rem;
+}
+
+.user__icon {
+    height: 5rem;
+    width: 5rem;
+    order: 2;
+}
+
+.user__icon img {
+    bottom: 0.2rem;
+}
+
+/* MAIN CONTENT */
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 40vw;
+}
